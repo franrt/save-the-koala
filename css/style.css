@@ -2,3 +2,61 @@
 wood brown: A89F68;
 army green: 41521F;
 */
+
+
+/*SECTION 1: HEADER*/
+
+
+/*Mi bg no se ve entero, solo lo que toman los rows :(*/
+
+.welcome {
+    background: url(../img/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar-default {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+#sect1 {
+    color: white;
+    padding: 120px 0 140px 40px;
+}
+
+.btn {
+    background-color: #41521f;
+    border-color: #41521f;
+}
+
+
+/*SECTION 2: INFO 1*/
+
+#koala2 {
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.info {
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.info1,
+.info2 {
+    color: #777777;
+}
+
+.info h3,
+.info2 h5 {
+    color: #A89F68;
+    font-weight: bolder;
+}
